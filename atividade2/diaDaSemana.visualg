@@ -1,0 +1,31 @@
+algoritmo "proximo dia da semana"
+
+var
+  dia: caractere
+
+inicio
+  escreval ("REGRAS")
+  escreval ("1-apenas letras minusculas")
+  escreval ("2-sem acentos")
+  escreval ("")
+  escreval ("digite o nome de um dia da semana: ")
+  leia (dia)
+  escolha dia
+    caso "segunda feira"
+      escreval ("o proximo dia da semana sera:terça feira")
+    caso "terça feira"
+      escreval ("o proximo dia da semana sera:quarta feira")
+    caso "quarta feira"
+      escreval ("o proximo dia da semana sera:quinta feira")
+    caso "quinta feira"
+      escreval ("o proximo dia da semana sera:sexta feira")
+    caso "sexta feira"
+      escreval ("o proximo dia da semana sera:sabado")
+    caso "sabado"
+      escreval ("o proximo dia da semana sera: domingo")
+    caso "domingo"
+      escreval ("o proximo dia da semana sera:segunda feira")
+    outrocaso 
+      escreval ("dia invalido")  
+  fimescolha
+fimalgoritmo

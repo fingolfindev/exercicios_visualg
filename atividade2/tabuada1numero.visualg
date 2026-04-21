@@ -1,0 +1,24 @@
+algoritmo "Primeiro Programa"
+
+var
+  num:inteiro
+
+inicio
+ escreval ("digite um numero de 1 a 10 e veja sua tabuada")
+ leia (num)
+       se (num>=1) e (num<=10) entao
+         escreval (num,"X 1=", num*1)
+         escreval (num,"X 2=", num*2)
+         escreval (num,"X 3=", num*3)
+         escreval (num,"X 4=", num*4)
+         escreval (num,"X 5=", num*5)
+         escreval (num,"X 6=", num*6)
+         escreval (num,"X 7=", num*7)
+         escreval (num,"X 8=", num*8)
+         escreval (num,"X 9=", num*9)
+         escreval (num,"X 10=", num*10)
+       senao 
+         escreval ("numero invalido")  
+       fimse
+
+fimalgoritmo
